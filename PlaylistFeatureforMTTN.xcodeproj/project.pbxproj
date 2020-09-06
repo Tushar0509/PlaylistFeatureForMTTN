@@ -10,10 +10,18 @@
 		8D2F92F7250572FE0031F37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F92F6250572FE0031F37F /* AppDelegate.swift */; };
 		8D2F92F9250572FE0031F37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F92F8250572FE0031F37F /* SceneDelegate.swift */; };
 		8D2F92FB250572FE0031F37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F92FA250572FE0031F37F /* ViewController.swift */; };
-		8D2F92FE250572FE0031F37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F92FC250572FE0031F37F /* Main.storyboard */; };
 		8D2F9301250572FE0031F37F /* PlaylistFeatureforMTTN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F92FF250572FE0031F37F /* PlaylistFeatureforMTTN.xcdatamodeld */; };
 		8D2F9303250573030031F37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F9302250573030031F37F /* Assets.xcassets */; };
 		8D2F9306250573030031F37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F9304250573030031F37F /* LaunchScreen.storyboard */; };
+		8D2F9313250573830031F37F /* PlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9312250573830031F37F /* PlaylistCollectionViewCell.swift */; };
+		8D2F9315250573970031F37F /* PlaylistsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9314250573970031F37F /* PlaylistsCell.swift */; };
+		8D2F9317250573AB0031F37F /* TwitterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9316250573AB0031F37F /* TwitterCollectionViewCell.swift */; };
+		8D2F9319250573B50031F37F /* TwitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9318250573B50031F37F /* TwitterCell.swift */; };
+		8D2F931B250573C30031F37F /* InstagramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F931A250573C30031F37F /* InstagramCollectionViewCell.swift */; };
+		8D2F931D250573CF0031F37F /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F931C250573CF0031F37F /* InstagramCell.swift */; };
+		8D2F931F250573E00031F37F /* YoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F931E250573E00031F37F /* YoutubeCollectionViewCell.swift */; };
+		8D2F9321250573EB0031F37F /* YoutubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9320250573EB0031F37F /* YoutubeCell.swift */; };
+		8D2F9323250574650031F37F /* UIextensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9322250574650031F37F /* UIextensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +29,19 @@
 		8D2F92F6250572FE0031F37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D2F92F8250572FE0031F37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8D2F92FA250572FE0031F37F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D2F92FD250572FE0031F37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D2F9300250572FE0031F37F /* PlaylistFeatureforMTTN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistFeatureforMTTN.xcdatamodel; sourceTree = "<group>"; };
 		8D2F9302250573030031F37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D2F9305250573030031F37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D2F9307250573030031F37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2F9312250573830031F37F /* PlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D2F9314250573970031F37F /* PlaylistsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsCell.swift; sourceTree = "<group>"; };
+		8D2F9316250573AB0031F37F /* TwitterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D2F9318250573B50031F37F /* TwitterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCell.swift; sourceTree = "<group>"; };
+		8D2F931A250573C30031F37F /* InstagramCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D2F931C250573CF0031F37F /* InstagramCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
+		8D2F931E250573E00031F37F /* YoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D2F9320250573EB0031F37F /* YoutubeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeCell.swift; sourceTree = "<group>"; };
+		8D2F9322250574650031F37F /* UIextensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIextensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +77,61 @@
 				8D2F92F6250572FE0031F37F /* AppDelegate.swift */,
 				8D2F92F8250572FE0031F37F /* SceneDelegate.swift */,
 				8D2F92FA250572FE0031F37F /* ViewController.swift */,
-				8D2F92FC250572FE0031F37F /* Main.storyboard */,
+				8D2F9322250574650031F37F /* UIextensions.swift */,
+				8D2F930D250573360031F37F /* Socials */,
 				8D2F9302250573030031F37F /* Assets.xcassets */,
 				8D2F9304250573030031F37F /* LaunchScreen.storyboard */,
 				8D2F9307250573030031F37F /* Info.plist */,
 				8D2F92FF250572FE0031F37F /* PlaylistFeatureforMTTN.xcdatamodeld */,
 			);
 			path = PlaylistFeatureforMTTN;
+			sourceTree = "<group>";
+		};
+		8D2F930D250573360031F37F /* Socials */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F9311250573650031F37F /* Playlists */,
+				8D2F93102505735C0031F37F /* Twitter */,
+				8D2F930F250573550031F37F /* Instagram */,
+				8D2F930E2505734E0031F37F /* Youtube */,
+			);
+			path = Socials;
+			sourceTree = "<group>";
+		};
+		8D2F930E2505734E0031F37F /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F931E250573E00031F37F /* YoutubeCollectionViewCell.swift */,
+				8D2F9320250573EB0031F37F /* YoutubeCell.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		8D2F930F250573550031F37F /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F931A250573C30031F37F /* InstagramCollectionViewCell.swift */,
+				8D2F931C250573CF0031F37F /* InstagramCell.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		8D2F93102505735C0031F37F /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F9316250573AB0031F37F /* TwitterCollectionViewCell.swift */,
+				8D2F9318250573B50031F37F /* TwitterCell.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		8D2F9311250573650031F37F /* Playlists */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F9312250573830031F37F /* PlaylistCollectionViewCell.swift */,
+				8D2F9314250573970031F37F /* PlaylistsCell.swift */,
+			);
+			path = Playlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +194,6 @@
 			files = (
 				8D2F9306250573030031F37F /* LaunchScreen.storyboard in Resources */,
 				8D2F9303250573030031F37F /* Assets.xcassets in Resources */,
-				8D2F92FE250572FE0031F37F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +204,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2F931B250573C30031F37F /* InstagramCollectionViewCell.swift in Sources */,
 				8D2F92FB250572FE0031F37F /* ViewController.swift in Sources */,
+				8D2F931F250573E00031F37F /* YoutubeCollectionViewCell.swift in Sources */,
 				8D2F92F7250572FE0031F37F /* AppDelegate.swift in Sources */,
 				8D2F92F9250572FE0031F37F /* SceneDelegate.swift in Sources */,
+				8D2F9321250573EB0031F37F /* YoutubeCell.swift in Sources */,
+				8D2F931D250573CF0031F37F /* InstagramCell.swift in Sources */,
+				8D2F9323250574650031F37F /* UIextensions.swift in Sources */,
+				8D2F9317250573AB0031F37F /* TwitterCollectionViewCell.swift in Sources */,
+				8D2F9315250573970031F37F /* PlaylistsCell.swift in Sources */,
 				8D2F9301250572FE0031F37F /* PlaylistFeatureforMTTN.xcdatamodeld in Sources */,
+				8D2F9313250573830031F37F /* PlaylistCollectionViewCell.swift in Sources */,
+				8D2F9319250573B50031F37F /* TwitterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D2F92FC250572FE0031F37F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D2F92FD250572FE0031F37F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D2F9304250573030031F37F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
